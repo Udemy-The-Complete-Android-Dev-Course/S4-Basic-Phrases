@@ -6,13 +6,118 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <TableLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button"
+                style="@android:style/Widget.Button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="phraseSelected"
+                android:padding="0px"
+                android:tag="aufwiedersehen"
+                android:text="Auf Wiedersehen" />
+
+            <Button
+                android:id="@+id/button2"
+                style="@android:style/Widget.Button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="phraseSelected"
+                android:tag="bisbald"
+                android:text="Bis bald" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button3"
+                style="@android:style/Widget.Button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="phraseSelected"
+                android:tag="bisspaeter"
+                android:text="Bit später" />
+
+            <Button
+                android:id="@+id/button4"
+                style="@android:style/Widget.Button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="phraseSelected"
+                android:tag="entschuldigensie"
+                android:text="Entschuldigen Sie" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button5"
+                style="@android:style/Widget.Button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="phraseSelected"
+                android:tag="estutmirleid"
+                android:text="Es tut mir leid" />
+
+            <Button
+                android:id="@+id/button6"
+                style="@android:style/Widget.Button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="phraseSelected"
+                android:tag="gutenmorgen"
+                android:text="Guten Morgen" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button7"
+                style="@android:style/Widget.Button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="phraseSelected"
+                android:tag="wiegehtesihnen"
+                android:text="Wie geht es Ihnen" />
+
+            <Button
+                android:id="@+id/button8"
+                style="@android:style/Widget.Button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="phraseSelected"
+                android:tag="wiegehts"
+                android:text="Wie geht's" />
+        </TableRow>
+    </TableLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
