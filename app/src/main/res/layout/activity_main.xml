@@ -28,7 +28,7 @@
                 android:onClick="phraseSelected"
                 android:padding="0px"
                 android:tag="aufwiedersehen"
-                android:text="Auf Wiedersehen" />
+                android:text="Goodbye" />
 
             <Button
                 android:id="@+id/button2"
@@ -38,7 +38,7 @@
                 android:layout_weight="1"
                 android:onClick="phraseSelected"
                 android:tag="bisbald"
-                android:text="Bis bald" />
+                android:text="See you soon" />
         </TableRow>
 
         <TableRow
@@ -54,7 +54,7 @@
                 android:layout_weight="1"
                 android:onClick="phraseSelected"
                 android:tag="bisspaeter"
-                android:text="Bit später" />
+                android:text="See you later" />
 
             <Button
                 android:id="@+id/button4"
@@ -64,7 +64,7 @@
                 android:layout_weight="1"
                 android:onClick="phraseSelected"
                 android:tag="entschuldigensie"
-                android:text="Entschuldigen Sie" />
+                android:text="Excuse me" />
         </TableRow>
 
         <TableRow
@@ -80,7 +80,7 @@
                 android:layout_weight="1"
                 android:onClick="phraseSelected"
                 android:tag="estutmirleid"
-                android:text="Es tut mir leid" />
+                android:text="I'm sorry" />
 
             <Button
                 android:id="@+id/button6"
@@ -90,7 +90,7 @@
                 android:layout_weight="1"
                 android:onClick="phraseSelected"
                 android:tag="gutenmorgen"
-                android:text="Guten Morgen" />
+                android:text="Good morning" />
         </TableRow>
 
         <TableRow
@@ -106,7 +106,7 @@
                 android:layout_weight="1"
                 android:onClick="phraseSelected"
                 android:tag="wiegehtesihnen"
-                android:text="Wie geht es Ihnen" />
+                android:text="How are you? &#10; (formal)" />
 
             <Button
                 android:id="@+id/button8"
@@ -116,7 +116,7 @@
                 android:layout_weight="1"
                 android:onClick="phraseSelected"
                 android:tag="wiegehts"
-                android:text="Wie geht's" />
+                android:text="How are you?" />
         </TableRow>
     </TableLayout>
 
