@@ -1,5 +1,5 @@
 # Basic Phrases
- Simple app that plays an audio with the german translation for a couple of basic phrases.
+ Simple app that plays an audio with the german translation of a couple of basic phrases.
 
 #### Versions
  - Android 6.0 Marshmallow 
